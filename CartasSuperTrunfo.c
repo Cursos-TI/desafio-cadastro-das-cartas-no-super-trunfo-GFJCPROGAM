@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-char estado;
-char carta[50];
-char cidade[50];
-int populacao;
-flota area;
-float pib;
-int turistico;
-
-int main() {
-
-    printf("====CARTA1======="\n);
-    
+int main(){
+    char estado;
+    char carta[50];
+    char cidade[50];
+    int populacao;
+    float area;
+    float pib;
+    int turistico;
+     
     print("Nome do Estado?\n");
     scanf("%s", &estado);
 
@@ -28,7 +25,7 @@ int main() {
     scanf("%f", &area);
 
     printf("PIB?\n");
-    scanf("f", &pib);
+    scanf("%f", &pib);
 
     printf("Numero de Pontos Turísticos?\n");
     scanf("%d", &turistico);
